@@ -1,6 +1,6 @@
 # hyCalendar 1.6.8 ソースコードリポジトリ
 
-このリポジトリは、Vector および窓の杜にて配布しているフリーソフト hyCalendar （http://netail.net/calendar/）のソースコードを公開しているものです。
+このリポジトリは、Vector および窓の杜にて配布しているフリーソフト hyCalendar （<http://netail.net/calendar/>）のソースコードを公開しているものです。
 
 本ソフトウェアの開発は既に終了しています。本ソフトウェアの開発には、Embarcadero Delphi 2010 等 Delphi 歴代バージョンと、Windows XP、プロファイリングツール ProDelphi、単体テストツール DUnit を使っていました。2010年に公開した 1.6.8 当時のソースコードをそのまま公開しています。ファイルの文字コードは MS932 （SHIFT_JIS）です。祝日情報データは、2019年・2020年の祝日変更を反映した最新版となっています。
 
