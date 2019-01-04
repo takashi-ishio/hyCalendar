@@ -1,0 +1,233 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>hyCalendar データフォーマット仕様</title>
+</head>
+
+<body>
+
+<pre>
+hyCalendar データフォーマット仕様
+
+Since: hyCalendar 1.5.0 [0.7.0 → 1.2.0 → 1.3.0 → 1.4.0 → 1.5.0]
+
+
+
+注: 以下の表現において， "{}" は０回以上の繰り返しを意味する．
+    "()" は自然言語による注釈．
+
+
+ファイル ::= ヘッダ [改行] {日付メモ} 期間予定 周期予定 TODOリスト 着色情報 日付カウンタ フリーメモ
+ヘッダ   ::= 'hyCALENDAR DATAFILE'
+日付メモ ::= 日付 [改行] 日付メモ内容 区切り文字
+
+期間予定 ::= '__RANGEITEM_HEADER__' {期間予定アイテム}
+期間予定アイテム ::= 開始日付 [改行] 終了日付 [改行] 期間予定色 [改行] キャプション [改行] スタイル設定 区切り文字
+期間予定色 ::= 色 | 色 ',' 色
+スタイル設定 ::= ε | ペン幅 [改行] | ペン幅 [改行] ペンスタイル [改行] 
+                 | ペン幅 [改行] ペンスタイル [改行] 休日飛ばし設定 [改行]
+                 | ペン幅 [改行] ペンスタイル [改行] 休日飛ばし設定 [改行] 左右端設定 [改行]
+休日飛ばし設定 ::= (祝日，日曜，土曜をそれぞれ 1, 2, 128 として，飛ばしたい日の和)
+左右端設定 ::= '0' (両方) | '1' (左のみ) | '2' (右のみ) | '3' (なし) 
+
+
+
+周期予定 ::= '__SERIESITEM_HEADER__' {周期予定アイテム}
+周期予定アイテム ::= '__SERIES_ITEM_START__' [改行] {プロパティ} {周期条件リスト} '__SERIES_ITEM_END__' [改行]
+周期条件リスト ::= '__CONDITION_LIST__' [改行] {周期条件アイテム}
+周期条件アイテム ::= '__SERIES_CONDITION_START__' [改行] {プロパティ} '__SERIES_CONDITION_END__' [改行]
+
+TODOリスト ::= '__TODO_HEADER__' [改行] {TODOアイテム}
+TODOアイテム ::= '__BEGIN_TODO_ITEM__' [改行] {プロパティ} '__END_TODO_ITEM__' [改行]
+
+着色情報 ::= '__COLOR_HEADER__' {着色アイテム}
+着色アイテム ::= 日付 ',' 背景色 ',' 日付色 [改行]
+背景色 ::= 色
+日付色 ::= 色
+
+日付カウンタ ::= '__COUNTDOWN_HEADER__' [改行] {カウンタアイテム}
+カウンタアイテム ::= 周期予定使用フラグ [改行] 日付 [改行] 
+                     周期予定インデクス [改行] 表示日数 [改行] 無効フラグ [改行] カウンタ付加情報  区切り文字
+カウンタ付加情報 ::= ε | キャプション使用フラグ [改行] キャプション [改行] 年単位継続フラグ [改行]
+
+周期予定使用フラグ ::= 論理値
+周期予定インデクス ::= (-1以上の整数値)
+無効フラグ ::= 論理値
+キャプション使用フラグ ::= 論理値
+キャプション ::= 文字列
+年単位継続フラグ ::= 論理値
+
+
+プロパティ ::= 属性 '=' 値 [改行]
+
+
+フリーメモ ::= '__FREEMEMO_HEADER__' [改行] 任意の文字列
+
+論理値 ::= '0' | '-1' | 'false' | 'true'
+区切り文字 ::= #12 (改ページ記号)
+開始日付, 終了日付, 日付 ::= yyyy/mm/dd形式の文字列
+色 ::= VCL の ColorToString で評価可能な TColor の文字列表現
+キャプション ::= 改行を含まない文字列
+ペン幅 ::= '1' | '2' | '3' | '4' | '5'
+ペンスタイル ::= '0' | '1' | '2' | '3' | '4'  
+
+註: ε は空語をあらわします．
+
+
+
+
+---サンプル---
+hyCALENDAR DATAFILE
+2003/10/25
+hyCalendar 0.4.3 を
+リリース．
+[改ページ]
+2003/10/26
+hyCalendar 0.4.4 に向けて
+開発開始．
+[改ページ]
+__RANGEITEM_HEADER__
+2003/10/25
+2003/10/26
+clGreen
+期間予定のサンプル．緑の線と，ダイアログで指定された文字色で表示されます．
+1
+0
+[改ページ]
+2003/10/27
+2003/10/28
+clRed,clBlue
+期間予定のサンプル２．赤い線＋青色の文字列で表示されます．
+__SERIESITEM_HEADER__
+__SERIES_ITEM_START__
+Name=予定１
+IsHidden=0
+IsHoliday=0
+IsShownAsDayName=0
+Color=clPurple
+__CONDITIONS_LIST__
+__SERIES_CONDITION_START__
+Type=ConditionNode
+Disabled=False
+Rank=0
+Month=1
+IsWeek=False
+Day=
+Sunday=False
+Monday=True
+Tuesday=True
+Wednesday=False
+Thursday=True
+Friday=False
+Saturday=False
+UserDefinedHoliday=False
+HolidayHandling=1
+RangeStartEnabled=False
+RangeEndEnabled=False
+RangeStart=2003/12/10
+RangeEnd=2003/12/10
+__SERIES_CONDITION_END__
+__SERIES_ITEM_END__
+__FREEMEMO_HEADER__
+フリーメモとして
+含まれる
+複数行の
+文字列．
+[EOF]
+
+
+
+--------------------------------
+補足資料: プロパティ
+--------------------------------
+TODOアイテムで利用可能な属性:
+
+
+Name                 このTODOの名前
+Checked              このTODOにはチェックが付けられている
+LastUpdated          このTODOの名前が最後に変更された日付
+
+
+周期予定アイテムで利用可能な属性:
+
+Name                 この予定の名前
+                     [1.4] "%d" は，基準日からの日数に置換される．
+                           基準日が指定されていない場合は現在の日からの日数．
+IsHidden             この予定は非表示となる
+IsHoliday            この予定は祝日として扱われる
+IsShownAsDayName     この予定は日付の名前として表示される
+Color                この予定の表示色（省略された場合，フォント設定の色）
+BaseDate             [1.4] 予定の名前で使われる "%d" に対する基準日設定．
+                           省略された場合は，現在の日からの日数となる．
+
+
+周期条件アイテムで利用可能な属性
+
+Type                 日付の条件である 'ConditionNode' か，
+                     条件式であることを示す 'LogicalExprNode'．
+Disabled             この条件を無効とする
+Rank                 階層構造の深さを規定する．
+                     至近の Rank が１小さいような LogicalExprNode の
+                     子ノードとなる．
+
+Type=LogicalExprNode の場合にのみ有効な属性
+
+Mode                 0 なら AND, 1 なら OR, 2 なら NAND, 3 なら NOR となる．
+
+Type=ConditionNode の場合にのみ有効な属性
+
+Month                月を指定する条件式．"," と "-" で指定された数値の列．
+                     例: 1-4, 7, 11-  (１月～４月，７月，１１月～１２月）
+IsWeek               [1.4] 0 なら日，1 なら週，2 なら隔週予定，
+                           3なら他予定からの日数指定，4 なら一定日数ごとの予定．
+                     [1.3] 0 なら日，1 なら週，2 なら隔週予定，3なら他予定からの日数指定．
+                     [1.2] 0 なら日，1 なら週，2 なら隔週予定．
+                     [Before 1.2] True なら，週単位で条件を設定する．
+Day                  日を指定する条件式．Month と記述は同様だが，
+                     月末をあらわす 'z' が利用可能．
+                     IsWeek=0 [Before 1.2: False] の場合のみ有効．
+                     それ以外の場合は無視される．
+
+Week                 週を指定する条件式．Month, Day と記述は同様だが，
+                     最終週をあらわす 'z' が利用可能．
+                     IsWeek=1 [Before 1.2: True] のときのみ有効．
+                     それ以外の場合は無視される．
+
+BiweekBaseDate       [1.2] 日付．第１週を数え始める日を指定する．
+                     IsWeek=2 のときのみ有効．
+
+DayCountBaseDate     [1.4] 日付．「一定日数ごとの予定」の基準日．
+DayCount             [1.4] 1 以上の整数．「N日に１回」周期のNを指定．
+
+Sunday               その曜日を条件に含めることを指定する．
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+
+UserDefinedHoliday   ユーザー定義の祝日（IsHolidayを設定された予定）を
+                     規定の（holidays.txt で定義された）祝日として扱う場合に
+                     True に設定される．
+HolidayHandling      祝日の扱いを設定する．条件の設定ダイアログの
+                     説明記述と対応．（0 始まりでアイテムのインデクスを表現）
+
+ReferItemID          IsWeek=3 のとき，参照する周期予定の番号．
+                     0から開始で，このデータファイル上での並び順で指定．
+                     自分自身の ID よりも必ず小さい数となる．
+ReferItemDelta       IsWeek=3 のとき，参照する周期予定からの日数差分．
+                     N日後なら+N，日前なら-Nの整数値．
+
+RangeStartEnabled    周期予定が設定される期間が限定されているなら True となる．
+RangeEndEnabled
+RangeStart           日付．周期予定が設定される期間をセットする．対応する Enabled 属性がなければ無効．
+RangeEnd             日付．周期予定が設定される期間をセットする．対応する Enabled 属性がなければ無効．
+
+
+</pre>
+
+</body>
+</html>
+

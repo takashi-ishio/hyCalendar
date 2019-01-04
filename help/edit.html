@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>カレンダーの操作</title>
+</head>
+
+<body>
+
+<h1>カレンダーの操作</h1>
+
+<p class="navi"><a href="#screen">[画面の表示とカーソル]</a> <a href="#moveDate">[日付の移動]</a> <a href="#size">[１画面の表示範囲の設定]</a> <a href="#input_memo">[予定の記入]</a></p>
+
+<p>各種予定の記入方法: 
+<a href="edit-dayitem.html#dayitem">日付メモ</a> <a href="edit-range.html#range">期間予定</a> 
+<a href="edit-series.html#series">周期予定</a> <a href="edit-todo.html#todo">TODO管理</a> <a href="edit-freememo.html#freememo">フリーメモ</a>
+<a href="edit-color.html#painttool">日付の着色</a></p>
+  </ul>
+
+<h2><a name="screen">画面の表示とカーソル</a></h2>
+
+<p class="navi">[画面の表示とカーソル] <a href="#moveDate">[日付の移動]</a> <a href="#size">[１画面の表示範囲の設定]</a> <a href="#input_memo">[予定の記入]</a></p>
+
+<p>hyCalendar のウィンドウは，以下のように３つのエリアから構成されています．</p>
+
+<img src="fig/startup_with_todo.png" ALT="起動直後の画面">
+
+<p>中央部が [カレンダーエリア]，下の空白部分が [フリーメモエリア] です．
+また，右下部分に[TODOリストエリア]があります．
+[カレンダーエリア] には日付単位でのメモを，
+[フリーメモエリア] には日付とは関係のないメモを，
+[TODOリストエリア] には任意のチェック項目を記入します．
+ウィンドウの大きさ，各エリアのサイズは調整可能です．
+</p>
+
+<p>[カレンダーエリア] の中は，枠線付きの日が
+存在していることが分かると思います．
+</p>
+
+<p>カレンダーは標準では日曜始まりです．
+月曜始まりにしたい場合は，設定ダイアログの
+<a href="config-view.html">[カレンダー表示]タブ</a>から設定を変更します．
+</p>
+
+<img src="fig/cursor.png" ALT="カーソル例" >
+
+<p>
+標準では，青色の枠で囲まれた日が現在の日付を，
+緑色の枠で囲まれた日がマウスで選択された日付を示します．
+カーソルの色は，設定ダイアログの
+<a href="config-color.html">[表示色]タブ</a>から変更することができます．
+</p>
+
+
+
+<h2><a name="moveDate">日付の移動</a></h2>
+
+<p class="navi"><a href="#screen">[画面の表示とカーソル]</a> [日付の移動] <a href="#size">[１画面の表示範囲の設定]</a> <a href="#input_memo">[予定の記入]</a></p>
+
+<p>
+目的の日へカーソルを移動するには，次のような方法があります．
+</p>
+
+  <table border="1">
+  <tr><th align="left">操作</th><th align="left">対応する動作</th></tr>
+  <tr><td>カーソルキーの←</td><td>一日前へ移動（週の先頭なら移動しない．<a href="config-key.html">オプションで前の週へ移動するか選択可能．</a>）</td></tr>
+  <tr><td>カーソルキーの→</td><td>一日後へ移動（週の終わりなら移動しない．<a href="config-key.html">オプションで次の週へ移動するか選択可能．</a>）</td></tr>
+  <tr><td>Home, または CTRL + ←</td><td>その週の先頭（左端）へ移動</td></tr>
+  <tr><td>End, または CTRL + →</td><td>その週の末尾（右端）へ移動</td></tr>
+  <tr><td>カーソルキーの↑</td><td>一週間前へ移動（一番上端なら先月のタブを開く．<a href="config-key.html">オプションで上へのスクロールが選択可能．</a>）</td></tr>
+  <tr><td>カーソルキーの↓</td><td>一週間後へ移動（一番下端なら翌月のタブを開く．<a href="config-key.html">オプションで下へのスクロールが選択可能．</a>）</td></tr>
+  <tr><td>Page Up</td><td>四週間前へ移動（上端に到達したら先月のタブを開く．<a href="config-key.html">オプションで上へのスクロールが選択可能．</a>）</td></tr>
+  <tr><td>Page Down</td><td>四週間後へ移動（下端に到達したら翌月のタブを開く．<a href="config-key.html">オプションで下へのスクロールが選択可能．</a>）</td></tr>
+  <tr><td>CTRL + Page Up</td><td>前のタブへ移動</td></tr>
+  <tr><td>CTRL + Page Down</td><td>次のタブへ移動</td></tr>
+  <tr><td>メニュー[カレンダー]-[今日の予定へ移動]</td><td>現在日へ移動</td></tr>
+  <tr><td>CTRL + T </td><td>現在日へ移動（メニュー[今日の予定へ移動]のショートカット）</td></tr>
+  <tr><td>表示ツールバーで日付を入力して[移動]またはEnter</td><td>入力した日への移動</td></tr>
+  <tr><td>マウスホイールによるスクロール</td><td>一週間単位で上下へ移動</td></tr>
+  </table>
+
+
+<p>表示されていない日付に移動する場合，自動でタブが開きます．
+不要なタブは，タブを右クリックして
+[このタブを閉じる] を選択することで閉じることができます． 
+</p>
+<p>開いているタブの状態を保存するかどうかは，設定ダイアログの<a href="config-save.html">[状態の自動保存]タブ</a>にある
+[プログラム終了時に開いているタブを保存する] 設定によって決まります．</p>
+
+<h2><a name="size">１画面の表示範囲の設定</a></h2>
+
+<p class="navi"><a href="#screen">[画面の表示とカーソル]</a> <a href="#moveDate">[日付の移動]</a> [１画面の表示範囲の設定] <a href="#input_memo">[予定の記入]</a></p>
+
+
+<p>
+カレンダーは，標準状態ではウィンドウサイズに１ヶ月分（七曜六週）の
+予定が表示されるようになっています．
+現在の表示サイズは，
+表示ツールバーの日付移動ボタンの右側に表示されています．
+</p>
+<img src="fig/zoom_rate.png" alt="拡大率の設定">
+
+<p>
+１画面サイズに表示したい週の数（行数）および曜日の数（列数）を
+リストから選択すると，表示サイズが変化します．
+週の数については，数値を直接記入することもできます．
+</p>
+
+<img src="fig/zoom_rate_2.png" alt="拡大率変更例">
+
+<p>
+表示サイズの右側にあるカレンダーマークのボタンを押下することで，
+現在の表示サイズを保存することができます．
+ボタン右側のプルダウンをクリックすると
+保存した表示サイズのリストが表示され，
+選択した表示サイズを復元することができます．
+保存した表示サイズのリストは，hyCalendar の終了時に設定ファイルに書き込まれ，
+次回以降の起動でも有効となります．
+</p>
+
+<img src="fig/zoom_rate_3.png" alt="拡大率リスト">
+
+
+<p>
+通常，変更した表示縮尺（拡大率）は
+カレンダー全体の表示に適用され，hyCalendar 終了時に破棄されます．
+１ヶ月ごとに異なる縮尺を適用したい場合は，
+設定ダイアログの<a href="config-view.html">[カレンダー表示]タブ</a>から設定を行います．
+また，終了時の表示縮尺をそのまま保存しておきたい場合は<a href="config-save.html">[状態の自動保存]タブ</a>から設定を行います．
+</p>
+
+
+<h2><a name="input_memo">予定の記入</a></h2>
+
+<p class="navi"><a href="#screen">[画面の表示とカーソル]</a> <a href="#moveDate">[日付の移動]</a> <a href="#size">[１画面の表示範囲の設定]</a> [予定の記入]</p>
+
+<p>hyCalendar は，以下の情報を取り扱うことができます．</p>
+
+<ul>
+<li><a href="edit-dayitem.html#dayitem">日付メモ: 日付ごとの予定</a>
+  <p>
+  各日付ごとの個別の予定です．日付をダブルクリックして
+  （あるいはカーソルをその日付に移動して Enter キーを押して）記入します．
+  <a href="edit-dayitem.html#textattr">装飾文字列</a>による着色などに対応しています．
+  また，カット＆ペーストの対象です．
+  </p>
+</li>
+<li><a href="edit-range.html#range">期間予定</a>
+  <p>開始日付と終了日付を指定した一定の期間に設定する予定です．
+  日付を右クリックし，「期間予定の追加...」から追加することができます．
+  矢印と直線によって，期間を明示します．
+  </p>
+</li>
+<li><a href="edit-series.html#series">周期予定</a>
+  <p>「毎年１月１日」「毎月第２月曜」のように，
+  特定の条件を満たした日付に対して予定を表示することができます．
+  [カレンダー]-[周期予定の編集]メニューから専用の編集ダイアログを使用して作成します．
+  </p>
+</li>
+<li><a href="edit-todo.html#todo">TODO</a>
+  <p>TODO記入エリア上（あるいはTODO編集ダイアログ）上で
+  追加・編集することができます．
+  TODOが日付を含んでいる場合，カレンダーのその日にもTODOの内容を
+  表示させることができます．
+  </p>
+</li>
+<li><a href="edit-freememo.html#freememo">フリーメモ</a>
+  <p>特にどの日付にも属さない予定などを書くための欄です．
+  記入した日付やURLがハイパーリンクされることを除けば，
+  特別な機能は提供しません．
+  </p>
+</li>
+<li><a href="edit-color.html#painttool">日付の着色</a>
+  <p>日付に任意の色を着色することで，特定の日を目立たせることが可能です．
+  </p>
+</ul>
+
+
+</body>
+</html>
+

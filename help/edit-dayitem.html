@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>日付メモ</title>
+</head>
+
+<body>
+
+<h1><a name="dayitem">日付メモ: 日付ごとの予定</a></h1>
+
+<p class="navi"><a href="#edit">[日付メモの操作]</a> <a href="#clipped_mark">[文字列のはみ出しとポップアップ]</a> <a href="#textattr">[装飾文字列]</a></p>
+
+<p>日付メモは，各日付ごとに設定される，予定の基本の単位です．</p>
+
+
+<h2><a name="edit">日付メモの操作</a></h2>
+
+<p>[日付メモの操作] <a href="#clipped_mark">[文字列のはみ出しとポップアップ]</a> <a href="#textattr">[装飾文字列]</a></p>
+
+<p>日付ごとの予定を記入するためには，
+日付をダブルクリックするか，
+あるいは目的の日付を選択した状態で Enter キーを押下します．
+すると，予定記入用の作業エリアが開きます．
+</p>
+
+<img src="fig/input_daily_memo.png" ALT="予定の記入">
+
+
+<p>日付ごとの予定を記入し終えたら，
+その作業エリア以外をマウスでクリックするか，
+ALT + Enter キー，あるいは ESC キーを押下することで編集を終了します．
+</p>
+
+
+<img src="fig/input_daily_memo2.png" ALT="記入された予定の例">
+
+<p>
+日付メモの内容は
+<a href="hyperlink.html">自動ハイパーリンク</a>の対象です．
+</p>
+
+
+<h2><a name="clipped_mark">文字列のはみ出しとポップアップ</a></h2>
+
+<p class="navi"><a href="#edit">[日付メモの操作]</a> [文字列のはみ出しとポップアップ] <a href="#textattr">[装飾文字列]</a></p>
+
+<p>
+ウィンドウサイズが小さい場合，
+記入した予定や，祝日の名前が枠からはみ出してしまうことがあります．
+このとき，右下に小さな三角形のマークが表示されます．
+<a href="config-color.html">このマークの色も変更できます．</a>
+</p>
+
+<p>
+<a href="config-hyperlink.html">文字列のはみ出しを避けるために，端でできるだけ折り返す設定が可能です．</a>
+設定すると，日付の名前および期間予定以外の文字列が日付枠からはみ出したとき，
+自動で折り返し（改行）されて表示されるようになります．
+下側にはみ出した場合は，やはりはみ出し表示のマークが描画されます．
+</p>
+
+<img src="fig/hamidasi_mark.png" ALT="はみだし表示">
+
+
+<p>
+このマークが付いた日にマウスカーソルを重ねると，
+その内容がポップアップ表示されます．
+ポップアップを禁止したい場合は<a href="config-hyperlink.html">[ハイパーリンク表示]タブ</a>から設定を変更します．
+</p>
+<p>ポップアップ表示された内容にアクセスしたい（範囲選択やハイパーリンクを使いたい）場合は，
+ウィンドウをクリックすると，表示状態のまま維持しておくことができます．
+</p>
+
+<img src="fig/input_daily_memo3.png" ALT="ポップアップの例">
+
+
+
+<h2><a name="textattr">装飾文字列</a></h2>
+
+<p class="navi"><a href="#edit">[日付メモの操作]</a> <a href="#clipped_mark">[文字列のはみ出しとポップアップ]</a> [装飾文字列]</p>
+
+<p>日付メモに対しては，特定の文字列を記入することによる装飾が可能です．
+<code>"|"</code>(あるいは設定ダイアログで指定した１文字)によって，色の名前，あるいは
+ユーザ定義の装飾文字列を
+括ることで指定することができます．例を以下に示します．
+</p>
+
+<table>
+<tr><th>入力</th><th>表示</th></tr>
+<tr><td><code>|青|テスト</code></td><td><code><font color="blue">テスト</font></code></td></tr>
+<tr><td><code>|red|大文字と小文字は区別しません</code></td><td><code><font color="red">大文字と小文字は区別しません</font></code></td></tr>
+<tr><td><code>|green|行の途中で|navy|色を変えることもできます．</code></td><td><code><font color="green">行の途中で</font><font color="navy">色を変えることもできます．</font></code></td></tr>
+</table>
+<p>装飾文字列の有効範囲は，次の装飾文字列が出現するか，行の終わりまで到達するかです．</p>
+
+<p>詳しくは，<a href="textattr.html">装飾文字列の使い方</a>を参照してください．</p>
+
+</body>
+</html>

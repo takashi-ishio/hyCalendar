@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>hyCalendar における装飾文字列</title>
+</head>
+
+<body>
+
+<h1>装飾文字列の使い方</h1>
+
+<h2>装飾文字列とは</h2>
+
+<p>日付メモに記入する文字列に対する着色，下線，斜体などの
+装飾情報を記述するための文字列です．
+</p>
+
+<p>すべての装飾文字列は，
+記号<code>"|"</code>(設定ダイアログから変更可能です)によって，
+色の名前，あるいは
+<a href="config-textattr.html#userdefined">ユーザ定義の装飾文字列</a>を
+括ることで指定することができます．
+</p>
+<p>装飾文字列の有効範囲は，次の装飾文字列が出現するか，行の終わりまで到達するかです．</p>
+
+
+<h2><a name="example">装飾文字列の例</a></h2>
+
+<p>オプション[日付メモ内での装飾文字列の表示]を
+[表示しない]に設定すると，次のように文字列が出力されます．</p>
+
+<table border="1">
+<tr>
+<th align="left">日付メモに記入した文字列</th><th align="left">実際の表示</th></tr>
+<tr><td><code>|青|テスト</code></td><td><code><font color="blue">テスト</font></code></td></tr>
+<tr><td><code>|red|大文字と小文字は区別しません</code></td><td><code><font color="red">大文字と小文字は区別しません</font></code></td></tr>
+<tr><td><code>|green|行の途中で|navy|色を変えることもできます．</code></td><td><code><font color="green">行の途中で</font><font color="navy">色を変えることもできます．</font></code></td></tr>
+<tr><td><code>|注意|「注意」に赤色を割り当てた場合の例です．</code></td><td><code><font color="red">「注意」に赤色を割り当てた場合の例です．</font></code></td></tr>
+</table>
+
+<p>オプション[日付メモ内での装飾文字列の表示]を
+[すべて表示]に設定すると，次のように文字列が出力されます．</p>
+
+<table border="1">
+<tr>
+<th align="left">日付メモに記入した文字列</th><th align="left">実際の表示</th></tr>
+<tr><td><code>|青|テスト</code></td><td><code><font color="blue">|青|テスト</font></code></td></tr>
+<tr><td><code>|red|大文字と小文字は区別しません</code></td><td><code><font color="red">|red|大文字と小文字は区別しません</font></code></td></tr>
+<tr><td><code>|green|行の途中で|navy|色を変えることもできます．</code></td><td><code><font color="green">|green|行の途中で</font><font color="navy">|navy|色を変えることもできます．</font></code></td></tr>
+<tr><td><code>|注意|「注意」に赤色を割り当てた場合の例です．</code></td><td><code><font color="red">|注意|「注意」に赤色を割り当てた場合の例です．</font></code></td></tr>
+</table>
+
+
+<p>オプション[日付メモ内での装飾文字列の表示]を
+[ユーザ定義のみ表示]に設定すると，次のように文字列が出力されます．</p>
+
+<table border="1">
+<tr>
+<th align="left">日付メモに記入した文字列</th><th align="left">実際の表示</th></tr>
+<tr><td><code>|青|テスト</code></td><td><code><font color="blue">テスト</font></code></td></tr>
+<tr><td><code>|red|大文字と小文字は区別しません</code></td><td><code><font color="red">大文字と小文字は区別しません</font></code></td></tr>
+<tr><td><code>|green|行の途中で|navy|色を変えることもできます．</code></td><td><code><font color="green">行の途中で</font><font color="navy">色を変えることもできます．</font></code></td></tr>
+<tr><td><code>|注意|「注意」に赤色を割り当てた場合の例です．</code></td><td><code><font color="red">|注意|「注意」に赤色を割り当てた場合の例です．</font></code></td></tr>
+</table>
+
+
+
+<h2>利用可能な色の名前</h2>
+
+<p>標準で使用できる色の名前は，次の通りです（アルファベットは大文字小文字を区別しません）:
+ Black，黒，Maroon，茶色，Green，緑，Olive，オリーブ，Navy，紺，
+ Purple，紫，Teal，青緑，Gray，灰色，Silver，銀色，Red，赤，Lime，ライム，Yellow，黄色，
+ Blue，青，Fuchsia，赤紫，Aqua，水色，White，白，MoneyGreen，マネーグリーン，SkyBlue，
+ 空色，Cream，クリーム色，MedGray，ミディアムグレー</p>
+
+
+<h2>装飾文字列に関する設定</h2>
+
+<p>設定ダイアログの<a href="config-textattr.html">装飾文字列タブ</a>としてまとめられています．</p>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<title>HTML HACKER ヘルプ</title>
+</head>
+<body>
+<a name="top" id="top"></a>
+
+<div class="center">
+<div class="box1">
+<h1>HTML 404 の使い方</h1>
+<p>
+<a href="#exe">動作概要</a><br>
+<a href="#main">画面の説明</a><br>
+<a href="#kwd">kwd.txt</a><br>
+</p>
+
+
+<a name="exe" id="exe"></a>
+<div class="box2">
+<h2 class="style">動作概要</h2>
+<div class="leftspace">
+解析するファイルを指定して実行すると、ソース内から<br>
+　href=<br>
+　src=<br>
+　url(<br>
+の部分を探し出し、パスを取得します。<br>
+検索属性は追加できます。（例：background=、bgsound=）<br>
+相対リンク、または絶対リンクによってリンク先のファイルが存在するか確認し、結果をリストに反映します。<br>
+<span id="colored">「http://」</span>のように、URLで指定されている場合はネットに接続し、ファイルの存在を確認します。<br>
+解析するファイル名にURLを入力した場合、そのファイルをダウンロードし、同様に解析します。<br>
+<strong>ネットに接続する場合は一度設定ダイアログを開く必要があります。</strong>
+</div>
+</div>
+<div class="back"><a href="#top" title="">top</a></div>
+
+
+<a name="main" id="main"></a>
+<div class="box2">
+<h2 class="style">画面の説明</h2>
+<img src="404_m.png" border="0" alt="404_m.png(6475 byte)" width="506" height="425" />
+<div class="leftspace">
+<p>大体見た感じで使ってください。</p>
+<h3>■解析ボタン</h3>
+<p>
+解析を実行します。<br>
+ネットに接続する場合は「http:// 解析」にチェックを入れる必要があります。
+</p>
+<h3>■リストウィンドウ</h3>
+<p>
+解析を実行するとリストに結果が反映されます。<br>
+リストをダブルクリックすると相対パス、絶対パスを取得します。
+</p>
+<p>
+<div class="p"><div class="pname">
+ex
+</div>
+<div class="pcomment">
+ファイルが存在する場合は○、存在しない場合は×、良く分からないときは？が表示されます。<br>
+また、インターネット上のファイルの場合ステータスコードが表示されます。
+</div></div>
+<div class="p"><div class="pname">
+line
+</div>
+<div class="pcomment">
+行数です。
+</div></div>
+<div class="p"><div class="pname">
+tag
+</div>
+<div class="pcomment">
+指定属性が有ったと思われる部分のタグです。
+</div></div>
+<div class="p"><div class="pname">
+kwd
+</div>
+<div class="pcomment">
+指定した属性です。
+</div></div>
+<div class="p"><div class="pname">
+path
+</div>
+<div class="pcomment">
+属性値として指定されているパスです。
+</div></div>
+<div class="p"><div class="pname">
+strings
+</div>
+<div class="pcomment">
+ヒットしたタグの文字列です。結構あいまいです。<br>
+ネット上のファイルの場合エラー内容が表示されることもあります。
+</div></div>
+<div class="p"><div class="pname">
+fullpath
+</div>
+<div class="pcomment">
+フルパスです。
+</div></div>
+</p>
+<h3>■ファイル一覧ウィンドウ</h3>
+<p>
+指定したフォルダのファイルの一覧が表示されます。<br>
+「フォルダ選択」ボタンでフォルダを選択できます。<br>
+<span id="colored">（フィルタはhtml、htm、css、js）</span>
+</p>
+<p>
+上部にファイルの一覧、下部にサブフォルダの一覧が表示されます。<br>
+ダブルクリック時の動作は以下のとおりです。
+<ul>
+<li>上のフォルダへ移動＞＞ひとつ上のフォルダに移動します。</li>
+<li>ファイル名＞＞選択したファイルがファイルパスの部分に入力されます。</li>
+<li>フォルダ名＞＞選択したフォルダへ移動します。</li>
+</ul>
+</p>
+<h3>■ブラウザで開く、エディタで開く</h3>
+そのままです。ブラウザ、エディタは指定できます。
+<h3>■オプション</h3>
+みたままでお願いします。<br>
+<img src="404_o.png" border="0" alt="404_o.png(2991 byte)" width="306" height="425" />
+</div>
+</div>
+<div class="back"><a href="#top" title="">top</a></div>
+
+
+<a name="kwd" id="kwd"></a>
+<div class="box2">
+<h2 class="style">kwd.txt</h2>
+<div class="leftspace">
+同梱のkwd.txtを書きかえることで、検索する属性を追加できます。
+大文字と小文字の同一視はできないので必要な場合は両方指定してください。
+</div>
+</div>
+<div class="back"><a href="#top" title="">top</a></div>
+
+その他分からないことは掲示板にどうぞ。
+
+
+</div>
+</div>
+</body>
+</html>

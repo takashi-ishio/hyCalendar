@@ -1,0 +1,14 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=hyCalendar.chm
+Contents file=toc.hhc
+Default topic=index.html
+Display compile progress=No
+Full-text search=Yes
+Index file=Index.hhk
+Language=0x411 日本語
+Title=hyCalendar ユーザーズガイド
+
+
+[INFOTYPES]
+

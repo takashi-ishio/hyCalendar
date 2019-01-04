@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="Window Styles" value="0x800025">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="hyCalendar とは">
+		<param name="Local" value="index.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="インストール">
+			<param name="Local" value="install.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ライセンス">
+			<param name="Local" value="license.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="謝辞">
+			<param name="Local" value="acknowledge.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="カレンダーの操作">
+		<param name="Local" value="edit.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="日付メモ">
+			<param name="Local" value="edit-dayitem.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="期間予定">
+			<param name="Local" value="edit-range.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="周期予定">
+			<param name="Local" value="edit-series.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="TODO管理">
+			<param name="Local" value="edit-todo.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="フリーメモ">
+			<param name="Local" value="edit-freememo.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="日付の着色">
+			<param name="Local" value="edit-color.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="日付のカウントダウン">
+		<param name="Local" value="countdown.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="自動ハイパーリンク">
+		<param name="Local" value="hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ファイルの管理">
+		<param name="Local" value="file.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="予定の検索">
+		<param name="Local" value="find.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="印刷">
+		<param name="Local" value="print.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="クリップボードの利用">
+		<param name="Local" value="clipboard.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ツールバー">
+		<param name="Local" value="toolbar.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ショートカットキー一覧">
+		<param name="Local" value="shortcut.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="設定ダイアログ">
+		<param name="Local" value="config.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="[フォント]タブ">
+			<param name="Local" value="config-font.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="[表示色]タブ">
+			<param name="Local" value="config-color.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="[装飾文字列]タブ">
+			<param name="Local" value="config-textattr.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="[ハイパーリンク表示]タブ">
+			<param name="Local" value="config-hyperlink.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="[キー操作]タブ">
+			<param name="Local" value="config-key.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="[ツールバー]タブ">
+			<param name="Local" value="config-toolbar.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="[カレンダー表示]タブ">
+			<param name="Local" value="config-view.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="[自動保存]タブ">
+			<param name="Local" value="config-save.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="[システム設定]タブ">
+			<param name="Local" value="config-ext.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="バッチ処理">
+		<param name="Local" value="batch.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="補足情報">
+		<param name="Local" value="appendix.html">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="よくある質問">
+			<param name="Local" value="faq.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="バージョン履歴">
+			<param name="Local" value="changelist.html">
+			</OBJECT>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="ファイル形式">
+			<param name="Local" value="format.html">
+			</OBJECT>
+	</UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="六曜モジュールの追加">
+		<param name="Local" value="rokuyo.html">
+		</OBJECT>
+</UL>
+</BODY></HTML>

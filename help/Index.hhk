@@ -1,0 +1,534 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="hyCalendar">
+		<param name="Name" value="hyCalendar">
+		<param name="Local" value="index.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="インストール">
+		<param name="Name" value="hyCalendar のインストール">
+		<param name="Local" value="install.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="セットアップ">
+		<param name="Name" value="hyCalendar のインストール">
+		<param name="Local" value="install.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="バージョン履歴">
+		<param name="Name" value="バージョン履歴">
+		<param name="Local" value="changelist.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ライセンス">
+		<param name="Name" value="ライセンス，サポート，免責">
+		<param name="Local" value="license.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ファイル形式">
+		<param name="Name" value="ファイル形式">
+		<param name="Local" value="format.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="アンインストール">
+		<param name="Name" value="アンインストール">
+		<param name="Local" value="install.html#uninstall">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="表示">
+		<param name="Name" value="カレンダーの表示とカーソル">
+		<param name="Local" value="edit.html#screen">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="カーソル">
+		<param name="Name" value="カレンダーの表示とカーソル">
+		<param name="Local" value="edit.html#screen">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="カーソルの色の変更">
+		<param name="Name" value="カーソルの色の変更">
+		<param name="Local" value="config-color.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="月曜始まり">
+		<param name="Name" value="月曜始まり">
+		<param name="Local" value="config-view.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="移動">
+		<param name="Name" value="日付の移動">
+		<param name="Local" value="edit.html#moveDate">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="今日の予定へ移動">
+		<param name="Name" value="日付の移動">
+		<param name="Local" value="edit.html#moveDate">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="このタブを閉じる">
+		<param name="Name" value="日付の移動">
+		<param name="Local" value="edit.html#moveDate">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="予定">
+		<param name="Name" value="予定の記入">
+		<param name="Local" value="edit.html#input_memo">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="日付メモ">
+		<param name="Name" value="予定の記入">
+		<param name="Local" value="edit-dayitem.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="日付カウントダウン">
+		<param name="Name" value="日付カウントダウン">
+		<param name="Local" value="countdown.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="カウントダウン">
+		<param name="Name" value="カウントダウン">
+		<param name="Local" value="countdown.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="六曜">
+		<param name="Name" value="六曜">
+		<param name="Local" value="rokuyo.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="はみ出し表示マーク">
+		<param name="Name" value="はみ出し表示マーク">
+		<param name="Local" value="edit-dayitem.html#clipped_mark">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="はみ出し表示マークの色の変更">
+		<param name="Name" value="はみ出し表示マークの色の変更">
+		<param name="Local" value="config-color.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="よくある質問">
+		<param name="Name" value="よくある質問">
+		<param name="Local" value="faq.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FAQ">
+		<param name="Name" value="FAQ">
+		<param name="Local" value="faq.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="起動時にファイルを開く">
+		<param name="Name" value="起動時にファイルを開く">
+		<param name="Local" value="faq.html#fileopen">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="フリーメモ">
+		<param name="Name" value="フリーメモ">
+		<param name="Local" value="edit-freememo.html#freememo">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="他のファイルを参照する">
+		<param name="Name" value="参照ファイル">
+		<param name="Local" value="file.html#references">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="参照ファイル">
+		<param name="Name" value="参照ファイル">
+		<param name="Local" value="file.html#references">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="インポート">
+		<param name="Name" value="インポート">
+		<param name="Local" value="file.html#import">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="エクスポート">
+		<param name="Name" value="エクスポート">
+		<param name="Local" value="file.html#export">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="バッチ処理によるエクスポート">
+		<param name="Name" value="バッチ処理によるエクスポート">
+		<param name="Local" value="batch.html#export">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="バッチ処理">
+		<param name="Name" value="バッチ処理">
+		<param name="Local" value="batch.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ファイル">
+		<param name="Name" value="ファイルの保存と読み込み">
+		<param name="Local" value="file.html#file">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="上書き保存">
+		<param name="Name" value="ファイルの保存と読み込み">
+		<param name="Local" value="file.html#file">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="名前を付けて保存">
+		<param name="Name" value="ファイルの保存と読み込み">
+		<param name="Local" value="file.html#file">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="開く">
+		<param name="Name" value="ファイルの保存と読み込み">
+		<param name="Local" value="file.html#file">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="自動保存，終了時の状態">
+		<param name="Name" value="終了時の状態の保存">
+		<param name="Local" value="config-save.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="自動保存，ファイル">
+		<param name="Name" value="ファイルの自動保存">
+		<param name="Local" value="file.html#file_autosave">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ファイルを保存せずに終了">
+		<param name="Name" value="ファイルの自動保存">
+		<param name="Local" value="file.html#file_autosave">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="拡張子">
+		<param name="Name" value="拡張子の関連付け">
+		<param name="Local" value="config-ext.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value=".cal ファイル">
+		<param name="Name" value="拡張子の関連付け">
+		<param name="Local" value="config-ext.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="自動ハイパーリンク">
+		<param name="Name" value="自動ハイパーリンク">
+		<param name="Local" value="hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ハイパーリンク">
+		<param name="Name" value="自動ハイパーリンク">
+		<param name="Local" value="hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="URL">
+		<param name="Name" value="自動ハイパーリンク">
+		<param name="Local" value="hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="URL ツールバー">
+		<param name="Name" value="URL ツールバー">
+		<param name="Local" value="hyperlink.html#url_toolbar">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="期間予定">
+		<param name="Name" value="期間予定の記入">
+		<param name="Local" value="edit-range.html#range">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="周期予定">
+		<param name="Name" value="周期予定の記入">
+		<param name="Local" value="edit-series.html#series">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="条件">
+		<param name="Name" value="条件の追加，周期予定">
+		<param name="Local" value="edit-series.html#series_condition">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="条件式">
+		<param name="Name" value="条件式の追加，周期予定">
+		<param name="Local" value="edit-series.html#series_expr">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="検索">
+		<param name="Name" value="検索">
+		<param name="Local" value="find.html#find">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="検索ツールバー">
+		<param name="Name" value="検索ツールバー">
+		<param name="Local" value="find.html#find_toolbar">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="背景色，検索結果">
+		<param name="Name" value="検索結果の表示色">
+		<param name="Local" value="config-color.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="検索結果">
+		<param name="Name" value="検索結果の表示色">
+		<param name="Local" value="config-color.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="次へ移動">
+		<param name="Name" value="検索ツールバー">
+		<param name="Local" value="find.html#find_toolbar">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="検索ダイアログ">
+		<param name="Name" value="検索ダイアログ">
+		<param name="Local" value="find.html#find_dialog">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="タブ区切りで予定をコピー">
+		<param name="Name" value="検索ダイアログ">
+		<param name="Local" value="find.html#find_dialog">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CSV形式で予定をコピー">
+		<param name="Name" value="検索ダイアログ">
+		<param name="Local" value="find.html#find_dialog">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="表示縮尺">
+		<param name="Name" value="表示縮尺">
+		<param name="Local" value="edit.html#size">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="拡大率">
+		<param name="Name" value="表示縮尺">
+		<param name="Local" value="edit.html#size">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="切り取り">
+		<param name="Name" value="クリップボード">
+		<param name="Local" value="clipboard.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="コピー">
+		<param name="Name" value="クリップボード">
+		<param name="Local" value="clipboard.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="貼り付け">
+		<param name="Name" value="クリップボード">
+		<param name="Local" value="clipboard.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="クリップボード">
+		<param name="Name" value="クリップボード">
+		<param name="Local" value="clipboard.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="元に戻す">
+		<param name="Name" value="クリップボード">
+		<param name="Local" value="clipboard.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="印刷">
+		<param name="Name" value="印刷">
+		<param name="Local" value="print.html#print">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="プレビュー">
+		<param name="Name" value="印刷プレビュー">
+		<param name="Local" value="print.html#preview">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="終了時の状態の保存">
+		<param name="Name" value="終了時の状態の保存">
+		<param name="Local" value="config-save.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ウィンドウ位置の保存">
+		<param name="Name" value="終了時の状態の保存">
+		<param name="Local" value="config-save.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="表示縮尺の保存">
+		<param name="Name" value="終了時の状態の保存">
+		<param name="Local" value="config-save.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ツールバー">
+		<param name="Name" value="ツールバー">
+		<param name="Local" value="toolbar.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ショートカット">
+		<param name="Name" value="ショートカット一覧">
+		<param name="Local" value="shortcut.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ツールバー位置の保存">
+		<param name="Name" value="終了時の状態の保存">
+		<param name="Local" value="config-save.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="検索オプション">
+		<param name="Name" value="検索オプションの変更">
+		<param name="Local" value="config-toolbar.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="大文字と小文字を区別する">
+		<param name="Name" value="検索オプションの変更">
+		<param name="Local" value="config-toolbar.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="オートコンプリート">
+		<param name="Name" value="検索オプションの変更">
+		<param name="Local" value="config-toolbar.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ポップアップ">
+		<param name="Name" value="ポップアップ">
+		<param name="Local" value="hyperlink.html#datelink">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="セルからはみ出した内容をポップアップで表示">
+		<param name="Name" value="セルからはみ出した内容のポップアップを禁止する">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ポップアップの時間制限を解除">
+		<param name="Name" value="ポップアップを時間経過では消さない">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ポップアップ，セルからはみ出した内容">
+		<param name="Name" value="セルからはみ出した内容のポップアップを禁止する">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ポップアップ，日付リンク先の内容">
+		<param name="Name" value="日付リンク先の内容のポップアップを禁止する">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="日付リンク先の内容のポップアップを禁止する">
+		<param name="Name" value="日付リンク先の内容のポップアップを禁止する">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ハイパーリンクの表示設定">
+		<param name="Name" value="ハイパーリンクの表示設定">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="予定メモに含まれた URL は表示しない">
+		<param name="Name" value="ハイパーリンクの表示設定">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ハイパーリンクのラベルをセルの下に表示する">
+		<param name="Name" value="ハイパーリンクの表示設定">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="日付リンク">
+		<param name="Name" value="日付リンク">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="日付を移動するときにできるだけページ移動をしない">
+		<param name="Name" value="日付リンク">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="表示縮尺を１ヶ月ごとに設定する">
+		<param name="Name" value="表示縮尺を１ヶ月ごとに設定する">
+		<param name="Local" value="config-view.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="表示サイズ">
+		<param name="Name" value="表示縮尺">
+		<param name="Local" value="edit.html#size">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="折り返し">
+		<param name="Name" value="文字列の折り返し表示">
+		<param name="Local" value="config-hyperlink.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="現在日カーソル">
+		<param name="Name" value="カレンダーの表示とカーソル">
+		<param name="Local" value="edit.html#screen">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="選択カーソル">
+		<param name="Name" value="カレンダーの表示とカーソル">
+		<param name="Local" value="edit.html#screen">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="フォント設定">
+		<param name="Name" value="フォント設定の変更">
+		<param name="Local" value="config-font.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="設定">
+		<param name="Name" value="設定の保存先">
+		<param name="Local" value="config.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="オプション">
+		<param name="Name" value="オプション">
+		<param name="Local" value="config.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IME">
+		<param name="Name" value="起動時のIMEの設定">
+		<param name="Local" value="config-key.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="装飾文字列の使用">
+		<param name="Name" value="装飾文字列の使用">
+		<param name="Local" value="textattr.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="装飾文字列の設定">
+		<param name="Name" value="装飾文字列の設定">
+		<param name="Local" value="textattr.html#TextAttrOption">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TODOリストのコピー">
+		<param name="Name" value="TODOリストのコピー">
+		<param name="Local" value="clipboard.html#copytodolist">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TODO管理">
+		<param name="Name" value="TODO管理">
+		<param name="Local" value="edit-todo.html#todo">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TODO設定">
+		<param name="Name" value="TODO設定">
+		<param name="Local" value="config-view.html">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="編集，周期予定">
+		<param name="Name" value="周期予定の編集">
+		<param name="Local" value="edit-series.html#series_edit">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="移動，周期予定">
+		<param name="Name" value="周期予定の移動">
+		<param name="Local" value="edit-series.html#series_move">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="複製，周期予定">
+		<param name="Name" value="周期予定の複製">
+		<param name="Local" value="edit-series.html#series_duplicate">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="削除，周期予定">
+		<param name="Name" value="周期予定の削除">
+		<param name="Local" value="edit-series.html#series_delete">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="着色">
+		<param name="Name" value="日付予定の着色">
+		<param name="Local" value="edit-color.html#painttool">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="カラーパレット">
+		<param name="Name" value="色の設定ダイアログ">
+		<param name="Local" value="edit-color.html#dialog">
+		</OBJECT>
+</UL>
+</BODY></HTML>
