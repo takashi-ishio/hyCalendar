@@ -10,6 +10,8 @@
 
 ## 関連リンク
 
+ベクターによるレビュー記事 <http://www.vector.co.jp/magazine/softnews/100224/n1002242.html>
+
 窓の杜に掲載された本ソフトウェアの紹介記事 <https://forest.watch.impress.co.jp/library/software/hycalendar/>
 
 ## 謝辞
